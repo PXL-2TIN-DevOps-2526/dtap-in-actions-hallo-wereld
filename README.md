@@ -8,6 +8,8 @@ Voor deze opdracht maak je gebruik van 2 virtuele machines in AWS:
 
 Voeg daarnaast ook de code van de calculator app toe aan deze repository. Je kan als alternatief ook rechtstreeks de repository `https://github.com/PXL-2TIN-DevOps-Resources/calculator-app-finished` clonen in de eerste stap van je pipeline.
 
+**De IP adressen van de VMS zullen elke keer veranderen. Je hoeft voor deze opdracht geen gebruik te maken van elastic IPS. In plaats daar van moet je er wel aan denken om IP adressen in je workflow files handmatig aan te passen als je aan de opdracht werkt. We houden hier bij de evaluatie ook rekening mee.**
+
 ### Configuratie testserver & productieserver
 De servers zijn nieuwe kale Ubuntu vms die we gebruiken voor de deployment van de applicatie in de test- en productieomgeving. Deze draait voor alle groepen in AWS. Installeer docker op je machines. Je kan hiervoor eventueel [deze installatiegidsen](https://www.digitalocean.com/community/tutorial-collections/how-to-install-and-use-docker) gebruiken.
 
